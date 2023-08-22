@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Justin &#8475; Moravec &#9733; Developer</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+  <script src="https://kit.fontawesome.com/9c4ceb8fe1.js" crossorigin="anonymous"></script>
+  
+  <!-- fonts -->
+
+
+
+</head>
+<body>
+ <!----------------- Nav / header ----->
+  <div class="sections" id="header">
+    <div class="container">
+      <nav class="nav__list">
+        <div class="social-icons">
+        <a href="https://github.com/justinm1997" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+        <a href="https://www.linkedin.com/in/justin-moravec-a39503287/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/justin.moravec.1"><i class="fa-brands fa-square-facebook"></i></a>
+      </div>
+        <ul class="nav__list" id="sidemenu">
+          <li class="nav__list"><a class="nav__link active" href="#header">Home</a></li>
+          <li class="nav__list"><a class="nav__link" href="#about">About</a></li>
+          <li class="nav__list"><a class="nav__link" href="#services">Skills</a></li>
+          <li class="nav__list"><a class="nav__link" href="#projects">Projects</a></li>
+          <li class="nav__list"><a class="nav__link" href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="allhometext">
+      <div class="header-text" title="Powerful force">
+        <div class="waviy">
+          <span style="--i:1">J</span>
+          <span style="--i:3">u</span>
+          <span style="--i:6">s</span>
+          <span style="--i:4">T</span>
+          <span style="--i:2">I</span>
+          <span style="--i:3">N</span>
+          <br>
+          <span style="--i:2">M</span>
+          <span style="--i:5">o</span>
+          <span style="--i:4">r</span>
+          <span style="--i:7">a</span>
+          <span style="--i:5">v</span>
+          <span style="--i:7">e</span>
+          <span style="--i:3">c</span>
+          <br>
+          <span style="--i:4">W</span>
+          <span style="--i:5">e</span>
+          <span style="--i:6">b</span>
+          <span style="--i:3">-</span>
+          <span style="--i:5">d</span>
+          <span style="--i:6">e</span>
+          <span style="--i:7">v</span>
+          <span style="--i:2">e</span>
+          <span style="--i:4">l</span>
+          <span style="--i:3">o</span>
+          <span style="--i:5">p</span>
+          <span style="--i:8">e</span>
+          <span style="--i:7">r</span>
+          
+
+         </div>
+
+         <div class="btndelay">
+          <div class="aboutmebtn">
+          <a href="#about" id="viewmy" title="Powerful Force" class="btn btn2">ABOUT<br>ME</a>
+          </div>
+          <div class="myworkbtn">
+            <a href="#projects" id="viewmy" title="Powerful Force" class="btn btn2">VIEW<br>MY WORK</a>
+          </div>
+          <div class="contactmebtn">
+          <a href="#contact" id="viewmy" title="Powerful Force" class="btn btn2">CONTACT<br>ME</a>
+          </div>
+      </div>
+      </div>
+    </div>
+        </div>
+    </div>
+  </div>
+  
+  <canvas id="canvas1"></canvas>
+  <!-- -----about------ -->
+  <div class="sections" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="300X.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Hello there! I'm Justin, a web developer based in Chicago, IL. I'm genuinely passionate about creating captivating and functional websites that leave a lasting impression on users. My journey into the world of web development began with a desire to grow my front-end skills and a genuine love for learning to code and design.</p>
+        
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Positive & Energetic<br><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Passionate<br><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Honest & Trustworthy<br><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Professional & Team Player<br><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Problem Solving<br><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Friendly & Responsible<br><i class="fa-solid fa-gear fa-spin fa-2xs" style="color: #ff0000;"></i> Love to learn</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2023 - Current</span><br>Development</li>
+              <li><span>2023</span><br>UI/UX Design</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023</span><br>Web Developement&Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!-- -------skillsss ---------->
+  <div class="sections" id="services">
+    <div class="container">
+      <h1 class="sub-title"> Skills</h1>
+        <div class="services-list">
+          <div>
+              <h2><i class="fa-brands fa-html5 fa-xl" style="color: #ff7300;"> </i> HTML</h2>
+              <h2><i class="fa-brands fa-css3-alt fa-xl" style="color: #0011ff;"> </i> CSS</h2>
+              <h2><i class="fa-brands fa-square-js fa-lg" style="color: #fff700;"> </i></i> JAVASCRIPT</h2>
+              <h2><i class="fa-brands fa-react fa-lg" style="color: #00ccff;"> </i> REACT/TAILWIND</h2>
+            </div>
+            <div>
+              <h2 class="htitle">Private Servers</h2>
+              <p class="skillsbox2">Coded/Hosted my own private servers. Where I was able to connect people all around the world to play a game they enjoyed.</p>
+            </div>
+            
+        </div>
+    </div>
+  </div>
+
+  <!-- ---- Projects ------- --> 
+  <div class="sections" id="projects">
+    <div class="container">
+      <h1 class="sub-title">Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="ecommerce.jpg">
+          <div class="layer">
+            <h3>Nike Clone</h3>
+            <p>Responsive Nike clone store</p>
+            <a href="https://justinm1997.github.io/nikeclone/"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="work-2.jpg">
+          <div class="layer">
+            <h3>Github</h3>
+            <p>Check out my code!</p>
+            <a href="https://github.com/justinm1997" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+  
+      </div>
+        <a href="https://github.com/justinm1997" target="_blank" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!---- contact ------>
+
+  <div class="sections" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me<br>Lets work! <i class="fa-brands fa-discord fa-bounce" style="color: #8000ff;"></i></h1>
+          <p><i class="fa-regular fa-envelope"></i> jmoravec1997@gmail.com</p>
+          <div class="extra-social">
+          <div class="social-icons">
+            <a href="https://github.com/justinm1997" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/justin-moravec-a39503287/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/justin.moravec.1"><i class="fa-brands fa-square-facebook"></i></a>
+          </div>
+        </div>
+          <a href="#" class="btn"><i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+
+
+
+
+
+
+
+
+
+  <script defer src="activePage.js"></script>
+</body>
+</html>
